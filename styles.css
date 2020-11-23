@@ -35,6 +35,10 @@
   color: black;
 }
 
+.button {
+  margin-bottom: 1rem; 
+}
+
 body {
   background-color: #393E46;
   margin-left: 0px;
@@ -44,7 +48,7 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 7rem;
   color: #4ECCA3;
 }
 
