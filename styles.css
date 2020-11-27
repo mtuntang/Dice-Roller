@@ -36,7 +36,22 @@
 }
 
 .button {
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
+}
+.buttons {
+  background: #216869;
+  font-family: "Indie Flower", cursive;
+  border-radius: 15px;
+  color: #dce1de;
+  font-size: 1.5rem;
+
+
+  text-decoration: none;
+}
+
+.buttons:hover {
+  background: #b3001b;
+  text-decoration: none;
 }
 
 body {

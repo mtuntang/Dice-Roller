@@ -10,17 +10,22 @@ function rollDice() {
 
   //If player 1 wins
   if (randomNumber1 > randomNumber2) {
-    document.querySelector("h1").innerHTML = "🚩Player 1 Wins!";
+    document.querySelector("h1").innerHTML = "🚩" + document.getElementById("player1name").innerHTML + " Wins!";
   }
   else if (randomNumber2 > randomNumber1) {
-    document.querySelector("h1").innerHTML = "Player 2 Wins!🚩";
+    document.querySelector("h1").innerHTML = document.getElementById("player2name").innerHTML + " Wins!🚩";
   }
   else {
-    document.querySelector("h1").innerHTML = "Draw!";
+    document.querySelector("h1").innerHTML = "🚩 Draw! 🚩";
   }
 }
 
 function changeNames() {
-  
+  var p1NewName = prompt("Enter player 1 name:")
+  var p2NewName = prompt("Enter player 2 name:")
+
+  document.getElementById("player1name").innerHTML=p1NewName;
+  document.getElementById("player2name").innerHTML=p2NewName;
+  document.getElementById("titleCard").innerHTML="Dice Roller";
 
 }

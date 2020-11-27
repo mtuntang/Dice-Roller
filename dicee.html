@@ -11,15 +11,15 @@
   <body>
 
     <div class="container">
-      <h1>Dice Roller</h1>
+      <h1 id="titleCard">Dice Roller</h1>
 
       <div class="dice">
-        <p>Player 1</p>
+        <p id="player1name">Player 1</p>
         <img class="img1" src="images\dice1.png">
       </div>
 
       <div class="dice">
-        <p>Player 2</p>
+        <p id="player2name">Player 2</p>
         <img class="img2" src="images\dice1.png">
       </div>
       <script src="dice.js"></script>
@@ -27,13 +27,13 @@
     </div>
     <div class="container">
       <div class="button" id="rollDiceButton">
-         <button type="button" class="butn"
+         <button type="button" class="buttons hover"
              onClick="rollDice()">
              Roll the Dice
          </button>
        </div>
       <div class="button" id="changeNamesButton">
-         <button type="button" class="butn"
+         <button type="button" class="buttons hover"
              onClick="changeNames()">
              Change Names
          </button>
