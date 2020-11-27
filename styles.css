@@ -1,7 +1,7 @@
 .container {
   width: 70%;
   margin: auto;
-  margin-bottom: 70px;
+  margin-bottom: 4.375rem;
   text-align: center;
 }
 
@@ -25,9 +25,8 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0.625em 0.875rem;
   text-decoration: none;
-  font-size: 17px;
 }
 
 .navbar a:hover {
@@ -43,7 +42,7 @@
   margin: auto;
   background: #216869;
   font-family: "Indie Flower", cursive;
-  border-radius: 15px;
+  border-radius: 1rem;
   color: #dce1de;
   font-size: 1.5rem;
   text-decoration: none;
@@ -60,9 +59,9 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 0.625*3rem;
   font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
+  text-shadow: 1rem 0 #232931;
   font-size: 7rem;
   color: #4ECCA3;
 }
