@@ -1,2 +1,2 @@
-# Dispute-Settlement
+# Dice Roller
 To view project:
