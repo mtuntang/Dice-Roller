@@ -8,7 +8,7 @@
 .dice {
   text-align: center;
   display: inline-block;
-
+  margin: auto;
 }
 
 .navbar {
@@ -36,16 +36,16 @@
 }
 
 .button {
+  margin: auto;
   margin-bottom: 1rem;
 }
 .buttons {
+  margin: auto;
   background: #216869;
   font-family: "Indie Flower", cursive;
   border-radius: 15px;
   color: #dce1de;
   font-size: 1.5rem;
-
-
   text-decoration: none;
 }
 
@@ -82,5 +82,4 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
 }
